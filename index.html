@@ -3,9 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" defer></script>
+    <title>Freysson Rafverktakar</title>
 </head>
 <body>
-    <h1>Freysson ehf</h1>
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="images/logo_with_name.svg"/>
+        </div>
+        <div class="language-switch">
+            <button id="switchLanguage">
+                <img id="flagImage" src="images/uk_flag.svg" alt="UK">
+            </button>
+        </div>
+    </header>
+
+    <figure class="large-figure">
+        <img src="images/temp_mynd.png" alt="Large Figure">
+    </figure>
+
+    <!-- About Us Section -->
+    <section class="about-us">
+        <div class="english" style="display: none;">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec diam odio, sodales at pharetra a, feugiat vitae mi. Nulla venenatis purus neque, quis condimentum ligula luctus sed.</p>
+        </div>
+        <div class="icelandic">
+            <h1>Um Okkur</h1>
+            <p>Viðskiptavinurinn er mjög mikilvægur, viðskiptavinurinn mun fylgja honum. Donec diam odio, félagar at pharetra a, feugiat vitae mi. Það er ekkert hreint eitur, en hvað er sósa af ligula sorgarinnar.</p>
+        </div>
+    </section>
+
+    <!-- Staff Section -->
+    <section class="staff">
+        <div class="english" style="display: none;">
+            <h1>Staff</h1>
+        </div>
+        <div class="icelandic">
+            <h1>Starfsmenn</h1>
+        </div>
+        <div class="staff-cards">
+            <div class="staff-card">
+                <img src="images/people-default.svg" alt="placeholder image"/>
+                <h2>Matthías Freysson</h2>
+                <p class="english" style="display: none;">Electrician</p>
+                <p class="icelandic">Rafvirkja Meistari</p>
+                <p class="english" style="display: none;">Email: Mattti (at) freysson.is</p>
+                <p class="icelandic">Netfang: Mattti (hjá) freysson.is</p>
+            </div>
+        
+            <!-- <div class="staff-card">
+                <img src="images/people-default.svg" alt="placeholder image"/>
+                <h2>Eva Ósk Gunnarsdóttir</h2>
+                <p class="english" style="display: none;">Secretary</p>
+                <p class="icelandic">Ritari</p>
+                <p class="english" style="display: none;">Email: eva (at) freysson.is</p>
+                <p class="icelandic">Netfang: eva (hjá) freysson.is</p>
+            </div> -->
+    
+            <!-- Add more staff cards as needed -->
+         </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo_white.svg" alt="Company Logo">
+            </div>
+            <div class="footer-info">
+                <div class="english" style="display: none;">
+                    <h2>"The Company slogan, is a bit longer than this, maybe like this?"</h2>
+                    <div class="contact-info">
+                        <p>Email: info (at) freysson.is</p>
+                        <p>Phone: +354 581 2345</p>
+                    </div>
+                </div>
+                <div class="icelandic">
+                    <h2>"Mottó fyrirtækisins, gæti verið lengri, svona langt kanskje?"</h2>
+                    <div class="contact-info">
+                        <p>Tölvupóstur: info (hjá) freysson.is</p>
+                        <p>Símanúmer: +354 581 2345</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="social-media">
+            <p>
+                <a href="https://Facebook.com/matti.freys" class="fa fa-facebook" style="color: #ffffff;"></a> 
+                
+                <a href="https://linkedin.com/in/matthías-freysson-845312234/" class="fa fa-linkedin" style="color: #ffffff;"> </a>
+            </p>
+        </div>
+    </footer>
+
 </body>
 </html>
