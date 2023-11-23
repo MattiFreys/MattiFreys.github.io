@@ -64,37 +64,69 @@ header {
     height: auto;
 }
 
-.staff-cards {
+.about-us {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    text-align: left;
+}
+
+.about-us-image {
+    max-width: 300px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.about-us p {
+    font-size: 16px;
+    text-align: justify;
+    flex: 1;
+}
+
+.skil-cards {
     display: flex;
     overflow-x: auto;
-    white-space: nowrap;
 }
 
-.staff-card {
-    width: 300px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.skil-card {
+    background-color: #f2f2f2; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+    margin: 10px; /* Spacing around each card */
+    padding: 20px; /* Padding inside the card */
+    text-align: center; /* Center the content */
+    min-width: 200px; /* Minimum width */
+
     display: inline-block;
+
+    /* Add these lines */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
 }
 
-.staff-card img {
-    width: 250px;
-    height: auto;
-    border-radius: 50%;
-    margin-top: 10px;
+.skill-icon {
+    width: 50px; /* Size of the icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below the icon */
 }
 
-.staff-card h2 {
-    margin: 10px 0;
+.skill-title {
+    color: #333; /* Dark text for title */
+    margin: 10px 0; /* Space around the title */
 }
 
-.staff-card p {
-    margin: 5px 0;
+.skill-description {
+    color: #666; /* Lighter text for description */
+    font-size: 14px; /* Smaller text for description */
 }
 
 footer {
