@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -8,6 +10,8 @@ body {
 header {
     position: fixed;
     display: flex;
+    align-items: center; 
+    justify-content: space-between;
     top: 0;
     left: 0;
     width: 100%;
@@ -15,6 +19,15 @@ header {
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    /* font-size: 30px;  */
+    margin-left: 0;
+    padding: 0;
+    display: inline-block; 
+}
+
 .logo-container {
     flex: 1;
     display: flex;
