@@ -1,72 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   version="1.1"
-   id="svg2"
-   width="432"
-   height="672"
-   viewBox="0 0 432 672"
-   sodipodi:docname="logo.ai"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs6" />
-  <sodipodi:namedview
-     id="namedview4"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1" />
-  <g
-     id="g8"
-     inkscape:groupmode="layer"
-     inkscape:label="logo"
-     transform="matrix(1.3333333,0,0,-1.3333333,0,672)">
-    <path
-       d="M 239.476,232.235 H 77.301 v 162.174 h 162.175 z"
-       style="fill:none;stroke:#231f20;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path10" />
-    <text
-       xml:space="preserve"
-       transform="matrix(1,0,0,-1,88.7759,369.8193)"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Myriad Pro';-inkscape-font-specification:MyriadPro-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text14"><tspan
-         x="0 6.1560001 12.312 18.468"
-         y="0"
-         sodipodi:role="line"
-         id="tspan12">1984</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(1,0,0,-1,113.2461,294.4097)"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74px;font-family:'Myriad Pro';-inkscape-font-specification:MyriadPro-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text18"><tspan
-         x="0 42.549999"
-         y="0"
-         sodipodi:role="line"
-         id="tspan16">Cu</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(1,0,0,-1,199.0386,294.4092)"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:'Myriad Pro';-inkscape-font-specification:MyriadPro-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text22"><tspan
-         x="0 7.9200001 16.709999 21.24"
-         y="0"
-         sodipodi:role="line"
-         id="tspan20">ehf.</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(1,0,0,-1,123.082,263.8096)"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:'Myriad Pro';-inkscape-font-specification:MyriadPro-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text26"><tspan
-         x="0 9.0299997 16.950001 22.065001 29.790001 37.709999 43.365002 51.494999 57 64.919998 73.123497 81.043503"
-         y="0"
-         sodipodi:role="line"
-         id="tspan24">Rafverktakar</tspan></text>
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="115" height="115" version="1.1">
+  <g style="font-family: Arial;">
+    <rect x="10" y="10" width="100" height="100" style="fill:none;stroke:black;stroke-width:4"/>
+    <text x="20" y="30" style="font-size: 10px;">1984</text>
+    <text x="30" y="70" style="font-size: 32px; font-weight: bold;">Cu</text>
+    <text x="75" y="70" style="font-size: 14px; font-weight: bold;">ehf.</text>
+    <text x="30" y="90" style="font-size: 12px;">Rafverktakar</text>
   </g>
 </svg>
