@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ddd;
 }
 
 header {
@@ -15,14 +15,14 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #3498db;
+    background-color: #bb6622;
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     font-family: 'Algeyria';
-    font-size: 32px; 
+    font-size: 28px; 
 }
 header .name {
     margin-left: 5px;

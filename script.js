@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function toggleLanguage() {
         if (englishContent[0].style.display === 'block') {
             // Switch to Icelandic
-            flagImage.src = "images/uk_flag.svg";
+            flagImage.src = "images/icelandic_flag.svg";
             flagImage.alt = "UK";
             for (let i = 0; i < englishContent.length; i++) {
                 englishContent[i].style.display = 'none';
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         } else {
             // Switch to English          
-            flagImage.src = "images/icelandic_flag.svg";
+            flagImage.src = "images/uk_flag.svg";
             flagImage.alt = "IS";
             for (let i = 0; i < englishContent.length; i++) {
                 icelandicContent[i].style.display = 'none';
