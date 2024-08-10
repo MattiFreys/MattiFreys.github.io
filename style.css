@@ -11,25 +11,32 @@ header {
     position: fixed;
     display: flex;
     align-items: center; 
-    justify-content: flex-start;
+    /* justify-content: space-between; */
     top: 0;
     left: 0;
     width: 100%;
     background-color: #bb6622;
-    padding: 15px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px 0px;
+    /* margin-right: 50px; */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+    z-index: 1000; 
 }
 
 header h1 {
     font-family: 'Algeyria';
-    font-size: 28px; 
+    font-size: 26px; 
 }
 header .name {
-    margin-left: 5px;
+    margin-left: 15px;
+    flex: 1;
 }
 
 
 .logo-container {
+    margin-left: 15px;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -39,22 +46,22 @@ header .name {
 }
 
 .language-switch {
-    flex: 1;
+    max-height: 60px;
     display: flex;
-    justify-content: flex-end;
-    /* align-items: center; */
+    align-items: center;
 }
 
 #switchLanguage {
     background-color: transparent; 
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     border: none;
     cursor: pointer;
     outline: none;
     overflow: hidden;
     position: relative;
+    margin-right: 15px;
 }
 
 #flagImage {
@@ -65,7 +72,7 @@ header .name {
 }
 
 .large-figure {
-    padding-top: 100px;
+    padding-top: 80px;
     margin: 0;
     width: 100%;
 }
